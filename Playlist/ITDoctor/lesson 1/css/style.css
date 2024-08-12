@@ -1,0 +1,40 @@
+:root {}
+
+@media (prefers-color-scheme: light) {
+    :root {}
+
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {}
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :has(:target) {
+        scroll-behavior: smooth;
+        scroll-padding-top: 3rem;
+    }
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+
+.user-select-none {
+    user-select: none;
+    pointer-events: none;
+}
+
+.list-reset {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

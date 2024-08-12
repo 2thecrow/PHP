@@ -1,6 +1,7 @@
-#PHP Learning
+# PHP Learning
 
-###PHP on Fedora
+### PHP on Fedora
+
 https://developer.fedoraproject.org/tech/languages/php/php-installation.html
 
 1. Install: PHP
@@ -21,7 +22,8 @@ sudo dnf install phpunit composer
 sudo dnf install php-mysqli
 ```
 
-###Symfony Framework on Fedora
+### Symfony Framework on Fedora
+
 https://developer.fedoraproject.org/start/sw/web-app/php-symfony.html
 https://symfony.com/doc/current/setup.html
 
@@ -56,7 +58,8 @@ symfony server:start
 symfony server:start -d
 ```
 
-###Foundation Framework
+### Foundation Framework
+
 https://get.foundation/
 
 ```PHP

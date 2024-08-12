@@ -7,9 +7,12 @@ OS: Fedora Linux
 Language: PHP
 Database:
 Framework: Symfony, Foundation CSS
+Code Editor: VSCode
 ```
 
-### PHP on Fedora
+### VSCode
+
+### ![PHP](/assets/img/php.svg) PHP on Fedora
 
 https://developer.fedoraproject.org/tech/languages/php/php-installation.html
 

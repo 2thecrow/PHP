@@ -1,20 +1,26 @@
 # PHP Learning
 
-### Stack
+### DevStack
 
-```
-OS: Fedora Linux
-Language: PHP
-Database:
-Framework: Symfony, Foundation CSS
-Code Editor: VSCode
-```
+> OS: Fedora Linux  
+> Language: PHP  
+> Database:  
+> Framework: Symfony, Foundation CSS  
+> Code Editor: VSCode
 
 ### VSCode
 
-### ![PHP](/assets/img/php.svg) PHP on Fedora
+> [VSCode](https://code.visualstudio.com/)
 
-https://developer.fedoraproject.org/tech/languages/php/php-installation.html
+#### VSCode - Extentions
+
+> [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)  
+> [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)  
+> [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)
+
+### PHP on Fedora
+
+> [FedoraProject](https://developer.fedoraproject.org/tech/languages/php/php-installation.html)
 
 1. Install: PHP
 
@@ -36,8 +42,8 @@ sudo dnf install php-mysqli
 
 ### Symfony Framework on Fedora
 
-https://developer.fedoraproject.org/start/sw/web-app/php-symfony.html
-https://symfony.com/doc/current/setup.html
+> [FedoraProject - PHP Symfony](https://developer.fedoraproject.org/start/sw/web-app/php-symfony.html)  
+> [Symfont Docs](https://symfony.com/doc/current/setup.html)
 
 1. Install: Symfony Framework
 
@@ -46,7 +52,8 @@ sudo dnf install php-symfony
 ```
 
 2. Install: PHP Composer
-   https://getcomposer.org/download/
+
+> [Composer](https://getcomposer.org/download/)
 
 ```bash
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -72,7 +79,7 @@ symfony server:start -d
 
 ### Foundation Framework
 
-https://get.foundation/
+> [Foundation CSS](https://get.foundation/)
 
 ```html
 <link

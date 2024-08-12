@@ -1,5 +1,14 @@
 # PHP Learning
 
+### Stack
+
+```
+OS: Fedora Linux
+Language: PHP
+Database:
+Framework: Symfony, Foundation CSS
+```
+
 ### PHP on Fedora
 
 https://developer.fedoraproject.org/tech/languages/php/php-installation.html
@@ -62,7 +71,11 @@ symfony server:start -d
 
 https://get.foundation/
 
-```PHP
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css"
+  crossorigin="anonymous"
+/>
 <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous"></script>
 ```
